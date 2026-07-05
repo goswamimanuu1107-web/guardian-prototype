@@ -1,0 +1,34 @@
+{
+  "url": "https://the-internet.herokuapp.com/login",
+  "timestamp": 1783152890.019547,
+  "console_errors": [
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+  ],
+  "failed_requests": [
+    "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1783152893038r0.8893112474227078&wxhr=true&t=1783152893043&f=298349752,318188263 \u2014 net::ERR_NAME_NOT_RESOLVED",
+    "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1783152893038r0.8893112474227078&wxhr=true&t=1783152894215&f=298349752,318188263 \u2014 net::ERR_NAME_NOT_RESOLVED",
+    "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1783152893038r0.8893112474227078&wxhr=true&t=1783152894657&f=298349752,318188263 \u2014 net::ERR_NAME_NOT_RESOLVED",
+    "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1783152893038r0.8893112474227078&wxhr=true&t=1783152894215&f=298349752,318188263 \u2014 net::ERR_NAME_NOT_RESOLVED",
+    "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1783152893038r0.8893112474227078&wxhr=true&t=1783152893043&f=298349752,318188263 \u2014 net::ERR_NAME_NOT_RESOLVED"
+  ],
+  "elements": [
+    {
+      "kind": "button",
+      "label": "Login",
+      "selector": "nth=0",
+      "status": "broken",
+      "detail": "Clicking 'Login' triggered 4 error(s) in the browser console."
+    },
+    {
+      "kind": "form",
+      "label": "Form #1 (2 field(s))",
+      "selector": "form nth=0",
+      "status": "ok",
+      "detail": "Found and has 2 field(s)."
+    }
+  ]
+}
